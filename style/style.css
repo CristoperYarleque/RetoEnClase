@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+     background-image: linear-gradient(45deg, #3dada4, #c71fe6);
+     color: white;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container img{
+    width: 15vw;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li{
+    
+    margin: 0 5px;
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    max-height: 50px;
+}
+
+
+button:hover{
+    background-color: white;
+    color: gray;
+}
+
+.boton1{
+    text-align: center;
+    margin: 5px 0;
+}
+
+.boton2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero{
+    padding:80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1, 
+h5, 
+div{
+    margin: 10px;
+}
+
+.hero h1{
+    font-size: calc(16px + 2vw);
+    text-align: center;
+}
+
+.hero img{
+    max-width: 75vw;
+}
+
+.caracteristicas{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.caracteristicas h2{
+    text-align: center;
+}
+
+.tarjetas{
+    display: flex;
+}
+
+.tarjeta{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.tarjeta *{
+    margin: 5px 0px;
+}
+
+.tarjeta a{
+    text-decoration: none;
+}
+
+.tarjeta img{
+    width: 60px;
+}
+
+.tarjeta:nth-child(2){
+    background-image: linear-gradient(45deg, #3dada4, #c71fe6);
+    color: white;
+}
+
+@media screen and (max-width:768px){
+    .tarjetas{
+        flex-direction: column;
+    }
+    .tarjeta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+article{
+    text-align: center;
+}
+
+article *{
+    margin: 15px;
+}
+
+.ventas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.venta{
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.356);
+    padding: 10px;
+}
+
+.venta ul{
+    list-style-type: none;
+}
+
+.venta button{
+    border-radius: 20px;
+    background-color: rgb(38, 194, 255);
+    padding: 10px 70px;
+}
+
+.venta img{
+    width: 30vh;
+}
+
+.tabla{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    margin: 0;
+}
+
+.monto{
+    color: rgb(38, 194, 255);
+    font-size: 45px;
+    width: 50px;
+    font-weight: bold;
+}
+
+.dolar{
+    color: rgb(38, 194, 255);
+    font-size: 30px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.letras{
+    font-size: small;
+}
