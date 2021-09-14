@@ -75,6 +75,10 @@ div{
     text-align: center;
 }
 
+.hero h5{
+    text-align: center;
+}
+
 .hero img{
     max-width: 75vw;
 }
