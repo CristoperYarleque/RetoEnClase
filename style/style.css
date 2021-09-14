@@ -127,6 +127,14 @@ div{
     }
 }
 
+.tarjeta a{
+    color: rgb(38, 194, 255);
+}
+
+.tarjeta .ala{
+    color: white;
+}
+
 article{
     text-align: center;
 }
